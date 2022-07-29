@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@200&family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Gantari', sans-serif;
+    font-weight: bold;
+    background-image: url('background.png');
+    background-size: 100%;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    color: #c72e3d;
+    text-align: center;
+}
+
+.container #potter {
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(10px);
+}
+
+.container #potter:hover {
+    cursor: pointer;
+}
+
+.container #potter:active {
+    transform: translateY(4px);
+}
+
+.container img{
+    width: auto;
+    height: 300px;
+}
+
+.container p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.container #PointsPower {
+    color: white;
+}
+
+.container #TheResult {
+    color: white;
+}
+
+.container #ResultOfPower {
+    color: white;
+    font-weight: 8px;
+}
+
+.container h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: #c72e3d;
+}
+
+.container #button {
+    color: #c72e3d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    text-decoration-color: white;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    padding: 15px 32px;
+}
+
+.container #button:active {
+    background-color: white;
+    box-shadow: 0 5px #c72e3d;
+    transform: translateY(4px);
+}
+
+.container #extra-1{
+    display: none;
+}
+.container #extra-2{
+    display: none;
+}
+.container #extra-3{
+    display: none;
+}
+.container #extra-4{
+    display: none;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script  src="main.js"></script>
+    <script  src="extra.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>POTTER POWER</h1>
+        
+        <div id="extra-power button">
+            <button id="extra-1" , onclick="clicker(), getPoint1()">Get 10 points</button>
+            <button id="extra-2" , onclick="clicker(), getPoint2()">Get 100 points</button>
+            <button id="extra-3" , onclick="clicker(), getPoint3()">Get 1000 points</button>
+            <button id="extra-4" , onclick="clicker(), getPoint4()">Get 10000 points</button>
+        </div>
+
+        <h4> More clicks - more strength!</h4>
+        <img src="harry.png" id="potter" onclick="CirculateofClicks(), CirculateofPoints()">
+        <p>Points: <span id="PointsPower">0</span></p>
+        <p id="TheResult">Result: <span id="ResultOfPower">0</span></p>
+        <button id="button" onclick="update()">Update</button>
+
+    </div>
+
+</body>
+
+</html>

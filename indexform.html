@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styleform.css">
+    <script defer src="mainform.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Registration</h1>
+            
+            <div class="inputValid">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="hermione">
+                <div class="error"></div>
+            </div>
+            
+            <div class="inputValid">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="hermionegranger@gmail.com" >
+                <div class="error"></div>
+            </div>
+            
+            <div class="inputValid">
+                <label for="password">Nickname</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+           
+            <div class="inputValid">
+                <label for="passwordRepeat">Repeat nickname</label>
+                <input id="passwordRepeat"name="passwordRepeat" type="password">
+                <div class="error"></div>
+            </div>
+            
+            <button id ='myButton' type="submit">Submit</button>
+            <button id ='myButtonPlay' type="submit">Play</button>
+
+        </form>
+    </div>
+</body>
+</html>
