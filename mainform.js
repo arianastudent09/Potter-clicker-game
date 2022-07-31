@@ -5,7 +5,7 @@ const password = document.getElementById('password');
 const passwordRepeat = document.getElementById('passwordRepeat');
 
 document.getElementById("myButtonPlay").onclick = function () {
-        location.href = "index.html";
+        location.href = "index_clicker.html";
     };
 
 Form.addEventListener('submit', check => {
